@@ -9,12 +9,12 @@ spec:
       app: auth
   template:
     metadata:
-    labels:
-      app: auth
+      labels:
+        app: auth
     spec:
       containers:
         - name: auth
-          image: edhuija/auth
+          image: erdahuija/auth
 ---
 apiVersion: v1
 kind: Service
