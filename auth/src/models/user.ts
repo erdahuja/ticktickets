@@ -14,7 +14,7 @@ interface UserModel extends mongoose.Model<UserDoc> {
 }
 
 // An interface that describes the properties
-// that a User Document has
+// that a User Document has apart from UserAttrs (like createdAt, updatedAt)
 interface UserDoc extends mongoose.Document {
   email: string;
   password: string;
